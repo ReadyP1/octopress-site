@@ -1,9 +1,13 @@
 ---
 layout: page
-title: "about"
-date: 2012-07-24 03:16
-comments: false
-sharing: false
-footer: false
+title: "About Me"
+date: 2015-12-21 09:32
+comments: true
+sharing: true
+footer: true
 ---
-Sample!
+Sup, nerds?
+
+I'm **Julian**, a high school freshman teaching myself front- and back-end Web development!
+
+I'm giving myself a crash course in *AWS*, *Ruby*, and *Node* mainly, usually experimenting with the latter two in static site generators.
