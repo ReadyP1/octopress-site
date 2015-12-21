@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://tcby-octopress.herokuapp.com/atom.xml" rel="self"/>
+  <link href="http://tcby-octopress.herokuapp.com/"/>
+  <updated>2015-12-21T09:37:50-08:00</updated>
+  <id>http://tcby-octopress.herokuapp.com/</id>
+  <author>
+    <name><![CDATA[Julian Anderson]]></name>
+    <email><![CDATA[techieboy45@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[First Post!]]></title>
+    <link href="http://tcby-octopress.herokuapp.com/blog/2015/12/21/new-post/"/>
+    <updated>2015-12-21T09:09:26-08:00</updated>
+    <id>http://tcby-octopress.herokuapp.com/blog/2015/12/21/new-post</id>
+    <content type="html"><![CDATA[<h2>Nyello (in 日本語)</h2>
+
+<p>はじめまして。
+私はジュリアンです。
+よろしくお願いします。</p>
+
+<p>私のしゅみは読書です。</p>
+
+<h2>Some code</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="k">print</span><span class="p">(</span><span class="s">&quot;Hello world!&quot;</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+</feed>
