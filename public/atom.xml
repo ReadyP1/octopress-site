@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Julian's Blog]]></title>
   <link href="http://tcby-octopress.herokuapp.com/atom.xml" rel="self"/>
   <link href="http://tcby-octopress.herokuapp.com/"/>
-  <updated>2015-12-21T14:42:50-08:00</updated>
+  <updated>2015-12-23T10:27:14-08:00</updated>
   <id>http://tcby-octopress.herokuapp.com/</id>
   <author>
     <name><![CDATA[Julian Anderson]]></name>
@@ -14,73 +14,134 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Two Posts Together: Welp + Whew]]></title>
+    <link href="http://tcby-octopress.herokuapp.com/blog/2015/12/23/twopoststogether/"/>
+    <updated>2015-12-23T10:16:57-08:00</updated>
+    <id>http://tcby-octopress.herokuapp.com/blog/2015/12/23/twopoststogether</id>
+    <content type="html"><![CDATA[<p>As the title states, this is two posts quickly slapped into one, since I don&rsquo;t have much time.</p>
+
+<h2>Post One: Welp</h2>
+
+<p>Well, know I know two things:</p>
+
+<ul>
+<li>If I have to include a picture that&rsquo;s big, gotta scale it down and include it locally instead of linking &ldquo;out&rdquo;</li>
+<li>Certain features of GitHub-Flavored Markdown, as anticipated, don&rsquo;t work. Namely:
+
+<ul>
+<li>Emoji</li>
+<li>Complete and incomplete list items</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>Post Two: Whew!</h2>
+
+<p>I just saved myself from having to pay some money!</p>
+
+<p>I just realized that in the Rake task that I use to deploy this site from its little folder on the Mac I&rsquo;m currently borrowing from my grandma, I had it set to use reduced-redundancy file hosting on S3. Currently, I&rsquo;m on the AWS free tier, which only provides for <em>standard</em> hosting on S3. In the same <code>rake deploy</code> task that is sending this post up to S3, it&rsquo;s set back to normal. Now, that means:</p>
+
+<ol>
+<li>I don&rsquo;t have to pay for this website while it&rsquo;s up and running (Woo! Free stuff!)</li>
+<li>Higher storage class = more redundancy = higher uptime!</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Comprehensive formatting test]]></title>
+    <link href="http://tcby-octopress.herokuapp.com/blog/2015/12/22/rendertest/"/>
+    <updated>2015-12-22T19:09:42-08:00</updated>
+    <id>http://tcby-octopress.herokuapp.com/blog/2015/12/22/rendertest</id>
+    <content type="html"><![CDATA[<p>Time to try to make sure everything looks good! :smile:</p>
+
+<h2>1. Markdown Formatting</h2>
+
+<p><em>italic text</em>
+<strong>bold text</strong>
+<strong><em>bold AND italicized text</em></strong>
+<del>strikethrough text</del>
+<code>monospace</code></p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="k">print</span><span class="p">(</span><span class="s">&quot;Syntax-highlighted Python&quot;</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Unordered list</h3>
+
+<ul>
+<li>List item 1
+
+<ul>
+<li>Nested list item 1
+
+<ul>
+<li>Supernested list item 1</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>List item 2</li>
+<li>List item 3</li>
+</ul>
+
+
+<h3>Ordered List</h3>
+
+<ol>
+<li>List item 1</li>
+<li>Nested list item 1
+
+<ol>
+<li>Supernested list item 1</li>
+</ol>
+</li>
+<li>List item 2</li>
+<li>List item 3</li>
+</ol>
+
+
+<h3>Task List</h3>
+
+<ul>
+<li>[x] This is a complete item</li>
+<li>[ ] This is an incomplete item</li>
+</ul>
+
+
+<p><a href="http://google.com">Google</a></p>
+
+<p><img src="https://octodex.github.com/images/grinchtocat.gif%20=50%" alt="An Octocat" /></p>
+
+<h2>Foreign Language Rendering</h2>
+
+<p>Ан хаж мыис чонэт ентэгры. Ыам мёнём нощтыр вивэндюм эи. Эож хёнк минемум ку, векж эю мютат видырэр. Ючю нэ иреуры льаборэж, эю вяш алёквюам аргюмынтум.</p>
+
+<p>Σεα δισιθ δισαντ ινθεγρε ετ, νοφυμ δοσθυς ανσιλλαε συμ εξ, κυο εα φιδε μεδιοσρεμ πρινσιπες. Φελ ει μαλυισετ ινθελλεγατ, νο σιθ φιδισε ιμπεδιτ. Αυτεμ ιλλυδ σονεθ ιν φιμ, χαρυμ ομνεσκυε υθ κυι. Δισερε επισυρει περπετυα ετ ηας. Δισαντ ποσιδονιυμ ιν ναμ, αυδιαμ οβλικυε βωνορυμ ιν φιξ.</p>
+
+<p>२४भि कुशलता दर्शाता ध्येय सारांश वास्तविक अथवा बनाति बनाति खरिदने लक्ष्य भीयह विभाग तरहथा। आंतरजाल नीचे वर्ष आवश्यक सिद्धांत बनाने विकास खरिदने अत्यंत २४भि कार्य लाभो परस्पर बेंगलूर स्थिति गोपनीयता कीने कराना कार्यलय विश्वव्यापि सुचनाचलचित्र एछित प्राण</p>
+
+<p>西みぎ残互だー後止良ワヤムレ文献ムスモ子価き掲襲棋ケシ津2見ぽわだ姉外こ漏載んど経1復むりや聞女タニナソ愛棋岳犠眠っえ。日タ権断主みくあや演台いまふそ鼻子ネヤホツ改世ロア家害ラ服上郎はぼこ混主そでフあ院年とけづ芸椅ソクトマ民目メテヘ山業しイさ人宿キリ囲害ユル鎮芸課サ面1到そざ。方めな録71停4売よ特情クいわ第康自共ウカエワ立北スエソム判付ぎ船模い稲欲横勤六俵ゆめが。</p>
+
+<p>مساعدة الأولية التقليدية كل بعض. بتطويق معارضة تغييرات بعد إذ. تم الضروري والكساد هذه, وسفن الأوروبي عن لان, لم دار الذود التجارية. من يكن الأول أساسي ويتّفق, ذلك عُقر تسبب ليرتفع عل, هو دول تصفح نقطة وتزويده. حيث انذار العظمى تكتيكاً تم, أضف هو أوسع والمانيا.</p>
+
+<p>כלשהו בישול משפטית גם רבה, על קרן הטבע נפלו אחרונים. פולנית בעברית קרן ב, ראשי קהילה שתי את, לויקיפדיה טכנולוגיה צעד ב. אתה התוכן לחשבון ב, בחירות לחיבור ותשובות אחד על. בה מתן איטליה ומדעים נוסחאות, תרבות תרומה אנגלית את שכל. עיצוב המלחמה בעברית בה שתי, מה מתן שפות לימודים. סדר ב אינו החופשית.</p>
+
+<p>Ilelilom seimik smalikünan ab lit, jüo kü bumotis simulan tradutod. Nem gö eklietobs-li moted nenkodiko, bü isio oflapons sui, futi maita paglidolsöd ek sal. Ok edesirons vinig omi. Hit jafal ofredon bi, ya vel hetons votan, ol obi mutaragran tomön. Isio jabata on plö, ma kod jafal pamojedon, cedolsöd foginan jäfikol-li cüt vü. Dugan flapön vegs du ini.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[First Post!]]></title>
     <link href="http://tcby-octopress.herokuapp.com/blog/2015/12/21/new-post/"/>
     <updated>2015-12-21T09:09:26-08:00</updated>
     <id>http://tcby-octopress.herokuapp.com/blog/2015/12/21/new-post</id>
-    <content type="html"><![CDATA[<h2>Nyello (in 日本語)</h2>
+    <content type="html"><![CDATA[<p>Hey there!</p>
 
-<p>はじめまして。
-私はジュリアンです。
-よろしくお願いします。</p>
-
-<p>私のしゅみは読書です。</p>
-
-<h2>Some code</h2>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="k">print</span><span class="p">(</span><span class="s">&quot;Hello world!&quot;</span><span class="p">)</span>
-</span></code></pre></td></tr></table></div></figure>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The problem with Pingdom]]></title>
-    <link href="http://tcby-octopress.herokuapp.com/blog/2012/07/22/the-problem-with-pingdom/"/>
-    <updated>2012-07-22T19:13:00-07:00</updated>
-    <id>http://tcby-octopress.herokuapp.com/blog/2012/07/22/the-problem-with-pingdom</id>
-    <content type="html"><![CDATA[<figure class='code'><figcaption><span>Time to be Awesome - awesome.rb </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="nb">puts</span> <span class="s2">&quot;Awesome!&quot;</span> <span class="k">unless</span> <span class="n">lame</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p><a href="http://www.pingdom.com%20Pingdom">The problem with pingdom.</a></p>
-
-<p>My money&rsquo;s in that office, right? If she start giving me some bullshit about it ain&rsquo;t there, and we got to go someplace else and get it, I&rsquo;m gonna shoot you in the head then and there. Then I&rsquo;m gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I&rsquo;m talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?</p>
-
-<blockquote><p>Blockquote is what goes
-inside this block here
-would you believe that
-bullshit?</p></blockquote>
-
-<p>Well, the way they make shows is, they make one show. That show&rsquo;s called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they&rsquo;re going to make more shows. Some pilots get picked and become television programs. Some don&rsquo;t, become nothing. She starred in one of the ones that became nothing.</p>
-
-<p>The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother&rsquo;s keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.</p>
-
-<p>Your bones don&rsquo;t break, mine do. That&rsquo;s clear. Your cells react to bacteria and viruses differently than mine. You don&rsquo;t get sick, I do. That&rsquo;s also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We&rsquo;re on the same curve, just on opposite ends.</p>
-
-<p>Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that&rsquo;s what you see at a toy store. And you must think you&rsquo;re in a toy store, because you&rsquo;re here shopping for an infant named Jeb.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Intro]]></title>
-    <link href="http://tcby-octopress.herokuapp.com/blog/2012/07/22/intro/"/>
-    <updated>2012-07-22T08:23:00-07:00</updated>
-    <id>http://tcby-octopress.herokuapp.com/blog/2012/07/22/intro</id>
-    <content type="html"><![CDATA[<p>Testing!</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin, massa eu vestibulum laoreet, nibh ante vulputate lorem, ac lobortis ante tellus eu mi. Duis sem nisi, luctus at feugiat eget, fringilla ut tellus. Nam a molestie justo. Sed pulvinar est vitae tellus semper tincidunt. Fusce euismod luctus lacus nec placerat. Mauris rutrum scelerisque nulla ut tempor. Nunc porttitor posuere mi, aliquet vehicula lorem feugiat in. Ut ut fermentum risus. Aliquam tincidunt ultricies ante sit amet bibendum. Cras nec sapien odio. Duis posuere congue sem, at congue massa faucibus at.</p>
-
-<p>Integer ut sapien eget nisl auctor faucibus ut fermentum arcu. Nunc rutrum urna non risus congue et tristique felis eleifend. Maecenas blandit est eu mauris aliquam aliquet. Quisque porttitor enim eget risus blandit in mollis orci eleifend. Nam malesuada nulla sed lacus elementum placerat accumsan arcu rhoncus. Phasellus feugiat cursus turpis nec facilisis. Duis eget metus arcu, eget commodo velit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer cursus vulputate enim, vel gravida velit faucibus et. Ut a urna vitae tellus cursus rhoncus. Maecenas at odio eget quam cursus elementum. Aliquam vitae eros quis tellus laoreet accumsan sed id lorem. Suspendisse et rutrum leo. Integer scelerisque vestibulum adipiscing. In posuere, libero ac accumsan suscipit, nulla ligula gravida erat, ut tempor odio erat nec sem. Quisque justo ipsum, adipiscing volutpat varius vitae, blandit eget nisi.</p>
-
-<p>Nullam adipiscing neque ac lacus commodo vitae imperdiet dui sollicitudin. Ut ac nunc augue. Nam at sem ut quam commodo aliquet vitae vitae dui. Vivamus scelerisque felis eget dolor cursus feugiat. Phasellus at dui sed lectus scelerisque pretium. Etiam nec massa ut justo vestibulum fringilla ac vitae urna. Morbi tortor erat, tempus sed consectetur at, elementum nec eros. Vivamus mattis arcu a sapien semper non lacinia eros pretium.</p>
-
-<p>Proin ut hendrerit arcu. Maecenas ullamcorper tristique magna vel mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam tincidunt euismod viverra. In sit amet neque turpis. Suspendisse ac sapien mi, id blandit purus. Ut tortor turpis, rutrum ac tempor at, accumsan sit amet erat. Etiam ultricies eleifend dolor, eget tempus justo tristique vitae. In hac habitasse platea dictumst. Aliquam eu enim neque.</p>
-
-<p>Morbi massa lorem, viverra non dictum at, malesuada vel nibh. Nam fermentum lobortis varius. Sed a nulla lacus, quis posuere risus. Nunc id urna libero, quis rutrum mi. In gravida felis urna. Praesent nec dolor ac urna tempor fermentum. Curabitur rutrum arcu et lorem volutpat viverra.</p>
+<p>This is gonna be the <strong><em>Octopress</em></strong> version of my site. The next post will be a comprehensive test of this <a href="http://octopress.org/">Octopress</a> theme&rsquo;s rendering engine.</p>
 ]]></content>
   </entry>
   

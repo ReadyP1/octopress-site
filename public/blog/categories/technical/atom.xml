@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: technical | Julian's Blog]]></title>
+  <link href="http://tcby-octopress.herokuapp.com/blog/categories/technical/atom.xml" rel="self"/>
+  <link href="http://tcby-octopress.herokuapp.com/"/>
+  <updated>2015-12-23T10:27:14-08:00</updated>
+  <id>http://tcby-octopress.herokuapp.com/</id>
+  <author>
+    <name><![CDATA[Julian Anderson]]></name>
+    <email><![CDATA[techieboy45@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Two Posts Together: Welp + Whew]]></title>
+    <link href="http://tcby-octopress.herokuapp.com/blog/2015/12/23/twopoststogether/"/>
+    <updated>2015-12-23T10:16:57-08:00</updated>
+    <id>http://tcby-octopress.herokuapp.com/blog/2015/12/23/twopoststogether</id>
+    <content type="html"><![CDATA[<p>As the title states, this is two posts quickly slapped into one, since I don&rsquo;t have much time.</p>
+
+<h2>Post One: Welp</h2>
+
+<p>Well, know I know two things:</p>
+
+<ul>
+<li>If I have to include a picture that&rsquo;s big, gotta scale it down and include it locally instead of linking &ldquo;out&rdquo;</li>
+<li>Certain features of GitHub-Flavored Markdown, as anticipated, don&rsquo;t work. Namely:
+
+<ul>
+<li>Emoji</li>
+<li>Complete and incomplete list items</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>Post Two: Whew!</h2>
+
+<p>I just saved myself from having to pay some money!</p>
+
+<p>I just realized that in the Rake task that I use to deploy this site from its little folder on the Mac I&rsquo;m currently borrowing from my grandma, I had it set to use reduced-redundancy file hosting on S3. Currently, I&rsquo;m on the AWS free tier, which only provides for <em>standard</em> hosting on S3. In the same <code>rake deploy</code> task that is sending this post up to S3, it&rsquo;s set back to normal. Now, that means:</p>
+
+<ol>
+<li>I don&rsquo;t have to pay for this website while it&rsquo;s up and running (Woo! Free stuff!)</li>
+<li>Higher storage class = more redundancy = higher uptime!</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

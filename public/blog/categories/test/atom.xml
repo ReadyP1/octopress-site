@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: test | Julian's Blog]]></title>
+  <link href="http://tcby-octopress.herokuapp.com/blog/categories/test/atom.xml" rel="self"/>
+  <link href="http://tcby-octopress.herokuapp.com/"/>
+  <updated>2015-12-23T10:27:14-08:00</updated>
+  <id>http://tcby-octopress.herokuapp.com/</id>
+  <author>
+    <name><![CDATA[Julian Anderson]]></name>
+    <email><![CDATA[techieboy45@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Comprehensive formatting test]]></title>
+    <link href="http://tcby-octopress.herokuapp.com/blog/2015/12/22/rendertest/"/>
+    <updated>2015-12-22T19:09:42-08:00</updated>
+    <id>http://tcby-octopress.herokuapp.com/blog/2015/12/22/rendertest</id>
+    <content type="html"><![CDATA[<p>Time to try to make sure everything looks good! :smile:</p>
+
+<h2>1. Markdown Formatting</h2>
+
+<p><em>italic text</em>
+<strong>bold text</strong>
+<strong><em>bold AND italicized text</em></strong>
+<del>strikethrough text</del>
+<code>monospace</code>
+<code>python
+print("Syntax-highlighted Python")
+</code></p>
+
+<h3>Unordered list</h3>
+
+<ul>
+<li>List item 1
+
+<ul>
+<li>Nested list item 1
+
+<ul>
+<li>Supernested list item 1</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>List item 2</li>
+<li>List item 3</li>
+</ul>
+
+
+<h3>Ordered List</h3>
+
+<ol>
+<li>List item 1</li>
+<li>Nested list item 1
+
+<ol>
+<li>Supernested list item 1</li>
+</ol>
+</li>
+<li>List item 2</li>
+<li>List item 3</li>
+</ol>
+
+
+<h3>Task List</h3>
+
+<ul>
+<li>[x] This is a complete item</li>
+<li>[ ] This is an incomplete item</li>
+</ul>
+
+
+<p><a href="http://google.com">Google</a></p>
+
+<p><img src="https://octodex.github.com/images/grinchtocat.gif%20=50%" alt="An Octocat" /></p>
+
+<h2>Foreign Language Rendering</h2>
+
+<p>Ан хаж мыис чонэт ентэгры. Ыам мёнём нощтыр вивэндюм эи. Эож хёнк минемум ку, векж эю мютат видырэр. Ючю нэ иреуры льаборэж, эю вяш алёквюам аргюмынтум.</p>
+
+<p>Σεα δισιθ δισαντ ινθεγρε ετ, νοφυμ δοσθυς ανσιλλαε συμ εξ, κυο εα φιδε μεδιοσρεμ πρινσιπες. Φελ ει μαλυισετ ινθελλεγατ, νο σιθ φιδισε ιμπεδιτ. Αυτεμ ιλλυδ σονεθ ιν φιμ, χαρυμ ομνεσκυε υθ κυι. Δισερε επισυρει περπετυα ετ ηας. Δισαντ ποσιδονιυμ ιν ναμ, αυδιαμ οβλικυε βωνορυμ ιν φιξ.</p>
+
+<p>२४भि कुशलता दर्शाता ध्येय सारांश वास्तविक अथवा बनाति बनाति खरिदने लक्ष्य भीयह विभाग तरहथा। आंतरजाल नीचे वर्ष आवश्यक सिद्धांत बनाने विकास खरिदने अत्यंत २४भि कार्य लाभो परस्पर बेंगलूर स्थिति गोपनीयता कीने कराना कार्यलय विश्वव्यापि सुचनाचलचित्र एछित प्राण</p>
+
+<p>西みぎ残互だー後止良ワヤムレ文献ムスモ子価き掲襲棋ケシ津2見ぽわだ姉外こ漏載んど経1復むりや聞女タニナソ愛棋岳犠眠っえ。日タ権断主みくあや演台いまふそ鼻子ネヤホツ改世ロア家害ラ服上郎はぼこ混主そでフあ院年とけづ芸椅ソクトマ民目メテヘ山業しイさ人宿キリ囲害ユル鎮芸課サ面1到そざ。方めな録71停4売よ特情クいわ第康自共ウカエワ立北スエソム判付ぎ船模い稲欲横勤六俵ゆめが。</p>
+
+<p>مساعدة الأولية التقليدية كل بعض. بتطويق معارضة تغييرات بعد إذ. تم الضروري والكساد هذه, وسفن الأوروبي عن لان, لم دار الذود التجارية. من يكن الأول أساسي ويتّفق, ذلك عُقر تسبب ليرتفع عل, هو دول تصفح نقطة وتزويده. حيث انذار العظمى تكتيكاً تم, أضف هو أوسع والمانيا.</p>
+
+<p>כלשהו בישול משפטית גם רבה, על קרן הטבע נפלו אחרונים. פולנית בעברית קרן ב, ראשי קהילה שתי את, לויקיפדיה טכנולוגיה צעד ב. אתה התוכן לחשבון ב, בחירות לחיבור ותשובות אחד על. בה מתן איטליה ומדעים נוסחאות, תרבות תרומה אנגלית את שכל. עיצוב המלחמה בעברית בה שתי, מה מתן שפות לימודים. סדר ב אינו החופשית.</p>
+
+<p>Ilelilom seimik smalikünan ab lit, jüo kü bumotis simulan tradutod. Nem gö eklietobs-li moted nenkodiko, bü isio oflapons sui, futi maita paglidolsöd ek sal. Ok edesirons vinig omi. Hit jafal ofredon bi, ya vel hetons votan, ol obi mutaragran tomön. Isio jabata on plö, ma kod jafal pamojedon, cedolsöd foginan jäfikol-li cüt vü. Dugan flapön vegs du ini.</p>
+]]></content>
+  </entry>
+  
+</feed>

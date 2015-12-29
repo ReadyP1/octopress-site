@@ -5,14 +5,6 @@ date: 2015-12-21 09:09:26 -0800
 comments: true
 categories:
 ---
-##Nyello (in 日本語)
-はじめまして。
-私はジュリアンです。
-よろしくお願いします。
+Hey there!
 
-私のしゅみは読書です。
-
-## Some code
-```python
-print("Hello world!")
-```
+This is gonna be the ***Octopress*** version of my site. The next post will be a comprehensive test of this [Octopress](http://octopress.org/) theme's rendering engine.

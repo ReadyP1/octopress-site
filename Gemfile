@@ -13,6 +13,11 @@ group :development do
   gem 'sass-globbing', '~> 1.0.0'
   gem 'rb-fsevent', '~> 0.9'
   gem 'stringex', '~> 1.4.0'
+  gem 'jekyll-watch', '~> 1.1'
+  gem 'redcarpet', '~> 3.0'
+  gem 'aws-sdk-v1', '~> 1.66'
+  gem "therubyracer"
+  gem "jekyll-press"
 end
 
 gem 'sinatra', '~> 1.4.2'
