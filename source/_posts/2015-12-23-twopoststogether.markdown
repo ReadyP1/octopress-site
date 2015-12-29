@@ -7,7 +7,7 @@ categories: technical
 ---
 As the title states, this is two posts quickly slapped into one, since I don't have much time.
 
-## Post One: Welp
+### Post One: Welp
 
 Well, know I know two things:
 
@@ -16,7 +16,7 @@ Well, know I know two things:
   - Emoji
   - Complete and incomplete list items
 
-## Post Two: Whew!
+### Post Two: Whew!
 
 I just saved myself from having to pay some money!
 
